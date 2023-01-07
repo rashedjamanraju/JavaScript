@@ -3,7 +3,7 @@
 // PATTERN 01----VAR
 /*
     GLOBAL SCOPE
-    যখন আমরা var keyword দিয়ে কোনো একটি variable কে Globally declare এবং value assign করি সেই variable কে যেকোনো জায়গা থেকে আমরা access করতে পারব।
+    যখন আমরা var keyword দিয়ে কোনো একটি variable কে Globally declare(ফাংশনের ডিক্লারেশন এর {} এবং শুধুমাত্র {} এই ২জায়গার ভিতরে ছাড়া অন্য যেকোনো জায়গায় ) এবং value assign করি সেই variable কে যেকোনো জায়গা থেকে আমরা access করতে পারব।
 */ 
                 var a="strings"; 
                 if(true){
