@@ -18,10 +18,10 @@
 
 
 
-// PATTERN 02----VAR
+// PATTERN 02----VAR 
 /*
     GLOBAL SCOPE
-    যখন আমরা var keyword দিয়ে কোনো একটি variable কোনো block এর মধ্যে declare এবং value assign করি সেই variable কে যেকোনো জায়গা থেকে আমরা access করতে পারব। block বলতে {} এর মধ্যে use করাকে বুজায়।
+    যখন আমরা var keyword দিয়ে কোনো একটি variable কোনো block এর মধ্যে declare এবং value assign করি সেই variable কে যেকোনো জায়গা থেকে আমরা access করতে পারব। block বলতে {} বুজায়।
     NOTE:-তবে function declare এর {} অংশটি block হিসেবে গন্য হবে না।
 */
                 if(true){
@@ -74,7 +74,7 @@
 // PATTERN 02----LET
 /*
     BLOCK SCOPE
-    যখন আমরা let keyword দিয়ে কোনো একটি variable কে কোনো block এর মধ্যে declare এবং value assign করি সেই variable কে  শুধুমাত্র ঐ block এর ভিতরে access করতে পারব। block বলতে {} এর মধ্যে use করাকে বুজায়।
+    যখন আমরা let keyword দিয়ে কোনো একটি variable কে কোনো block এর মধ্যে declare এবং value assign করি সেই variable কে  শুধুমাত্র ঐ block এর ভিতরে access করতে পারব। block বলতে {} বুজায়।
     NOTE:-তবে function declare এর {} অংশটি block হিসেবে গন্য হবে না।
 */
                 if(true){
