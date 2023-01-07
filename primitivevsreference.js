@@ -1,4 +1,6 @@
+
 //Primitive type data এবং reference type data এর মধ্যে পার্থক্য। 
+
 /*PRIMITIVE TYPE DATA:
 যখন আমরা একটি variable  এ premitive type data ইনপুট করি এবং অন্য আরেকটি variable এ যদি আমরা ঐ আগের variable এ ইনপুট করা value কে ইনপুট করি 
 তাহলে ২য় variable এ ১ম variable এর value টি কপি হবে । যার কারণে  ৩য় statement এ ১ম variable এর মধ্যে নতুন আরেকটি data ইনপুট করলে ২য় variable 
