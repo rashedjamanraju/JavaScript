@@ -2,6 +2,13 @@
 //Primitive type data এবং reference type data এর মধ্যে পার্থক্য। 
 
 /*PRIMITIVE TYPE DATA:
+                              string.
+                              number.
+                              bigint.
+                              boolean.
+                              undefined.
+                              symbol.
+                              null.
 যখন আমরা একটি variable  এ premitive type data ইনপুট করি এবং অন্য আরেকটি variable এ যদি আমরা ঐ আগের variable টিকে ইনপুট করি 
 তাহলে ২য় variable এ ১ম variable এর value টি কপি হবে । যার কারণে  ৩য় statement এ ১ম variable এর মধ্যে নতুন আরেকটি data ইনপুট করলে ২য় variable 
 এর value এর মধ্যে কোনো পরিবর্তন আসবে না।তবে ১ম variable এর value এর মধ্যে পরিবর্তন আসবে।*/
@@ -18,6 +25,8 @@
 এটি প্রযোজ্য হয় তখনই যখন আমরা ইনপুট হিসেবে reference type data ব্যবহার করি তখন।
 
 REFERENCE TYPE DATA:
+                              Array, Object, and Function
+                              
 যখন আমরা একটি variable  এ reference type data ইনপুট করি এবং অন্য আরেকটি variable এ যদি আমরা ঐ আগের variable টিকে ইনপুট করি 
 তাহলে ২য় variable এ ১ম variable এর value টি কপি না হয়ে ১ম variable এর মেমোরি অ্যাড্রেসটি কপি হবে । যার কারণে  ৩য় statement এ ১ম variable এর মধ্যে নতুন 
 আরেকটি reference type data ইনপুট করলে অথবা আগের variable এর মধ্যে update আনলে ২য় variable এর value এর মধ্যেও পরিবর্তন আসবে ।
