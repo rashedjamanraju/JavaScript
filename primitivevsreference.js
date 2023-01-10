@@ -23,16 +23,16 @@ REFERENCE TYPE DATA:
 আরেকটি reference type data ইনপুট করলে অথবা আগের variable এর মধ্যে update আনলে ২য় variable এর value এর মধ্যেও পরিবর্তন আসবে ।
 এর একমাত্র কারন হচ্ছে ২টি variable এরই memoরy location/memory adress একই হয়ে যাওয়া।*/
 //EXAMPLE:
-//01.
+//01. new value assigning
           let a={name:"Rashed",age:21};
           let b=a;
           a={name:"Raju",age:20};
           console.log(a,b);
           
-          //OUTPUT:{ name: 'Raju', age: 20 } { name: 'Rashed', age: 21 }
+          //OUTPUT:{ name: 'Raju', age: 20 } { name: 'Raju', age: 21 }
 
 
-//02
+//02 pre property value updating
           let a={name:"Rashed",age:21};
           let b=a;
           a.name="raju"
